@@ -1,19 +1,47 @@
 body{
 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("IMAGE/design01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vh;
+    padding: 0%;
+    margin: 0%;
+
+
 }
 h1{
-
+ color: white;
+ font-size: 60px;
+ text-align: left;
+ font-weight: bold;
+ height: fit-content;
+ width: fit-content;
 }
 
 h2{
-
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    height: fit-content;
+    width: fit-content;
 }
 
 
 .list{
 
+    color: white;
+    font-size: 40px;
+    height: fit-content;
+    width: fit-content;
+}
 
+.list:hover{
+    color: burlywood;
+    transition: 0.4s;
+    transition:all;
 }
 
 
