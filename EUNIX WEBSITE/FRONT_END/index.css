@@ -1,26 +1,62 @@
 body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(to right, #134452, #0c2f45);
 }
-
-
-
 
 h1{
 text-align: center;
 text-shadow: 50px;
 position: relative;
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:rgb(255, 255, 255);
+width:max-content;
+left: 41%;
+}
+
+h1::after{
+    content: ' ';
+    position: absolute;
+    background: linear-gradient(to right, #134452, white);
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    
+}
+
+h1:hover{
+    color: rgba(216, 208, 208, 0.518);
+}
+
+h1:hover:after{
+    background: linear-gradient(to left, #134452, white);
 }
 
 h2{
 text-align: center;
 font-size: 20px;
+color:rgb(255, 255, 255)
 
 
 
 
 
 
+}
+
+
+#about_us {
+    position: absolute;
+    top: 4%;
+    left: 95%;
+    color: white
+}
+
+#services {
+    position: absolute;
+    top: 4%;
+    left: 89%;
+    color: white;
 }
 
 
@@ -28,27 +64,70 @@ font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color: rgb(25, 113, 171);
+    background: linear-gradient(to left, rgb(255, 255, 255), rgb(16, 72, 82));
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    transition: 0.5s;
     position: center;
     text-align: center;
-    transition: ease-in;
     text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .button:hover{
-    background-color: rgb(138, 28, 28);
-    color: black;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(16, 72, 82));
+    color: rgb(11, 37, 54);
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-    transition: 0.5s;
     position: center;
     width:fit-content;
+    transition: all 0.3s ease-in 0s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

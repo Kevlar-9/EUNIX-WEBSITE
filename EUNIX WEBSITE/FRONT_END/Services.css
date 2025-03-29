@@ -41,7 +41,6 @@ h2{
 .list:hover{
     color: burlywood;
     transition: 0.4s;
-    transition:all;
 }
 
 
